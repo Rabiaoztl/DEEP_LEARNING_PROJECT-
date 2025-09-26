@@ -72,6 +72,13 @@ Modelin sadece doğruluk oranı değil, aynı zamanda tahmin süreçleri de ince
 <img width="1057" height="282" alt="Ekran görüntüsü 2025-09-26 185709" src="https://github.com/user-attachments/assets/338ffc4e-1ce4-4186-868b-5451d39f1569" />
 
 
-•Doğru ve yanlış sınıflandırılan örnekler görselleştirilerek modelin güçlü ve zayıf yönleri incelenmiştir.
+• Doğru ve yanlış sınıflandırılan örnekler görselleştirilerek modelin güçlü ve zayıf yönleri incelenmiştir.
 <img width="1093" height="562" alt="Ekran görüntüsü 2025-09-26 183931" src="https://github.com/user-attachments/assets/72cd0c90-1139-4d67-a39f-812b153fa6d7" />
+
+
+## ✨LİNKLER
+https://www.kaggle.com/code/rabiaayse/deep-learning-proje
+
+https://www.kaggle.com/code/ceydarkolu/deep-learnining-project(TAKIM ARKADAŞIM)
+
 
