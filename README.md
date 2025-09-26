@@ -76,7 +76,7 @@ Modelin sadece doğruluk oranı değil, aynı zamanda tahmin süreçleri de ince
 <img width="1093" height="562" alt="Ekran görüntüsü 2025-09-26 183931" src="https://github.com/user-attachments/assets/72cd0c90-1139-4d67-a39f-812b153fa6d7" />
 
 
-## ✨LİNKLER
+## ✨LİNK
 https://www.kaggle.com/code/rabiaayse/deep-learning-proje
 
 
