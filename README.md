@@ -69,6 +69,8 @@ Modelin sadece doğruluk oranı değil, aynı zamanda tahmin süreçleri de ince
 
 
 • Ayrıca, modelin tahminlerinin arkasındaki görsel sebepleri anlamak için Grad-CAM (Gradient-weighted Class Activation Mapping) tekniği uygulanmıştır. Bu teknik, modelin görüntünün hangi bölgelerine odaklandığını bir ısı haritası (heatmap) şeklinde göstererek modelin karar verme sürecini daha şeffaf hale getirir.
+<img width="1057" height="282" alt="Ekran görüntüsü 2025-09-26 185709" src="https://github.com/user-attachments/assets/338ffc4e-1ce4-4186-868b-5451d39f1569" />
+
 
 •Doğru ve yanlış sınıflandırılan örnekler görselleştirilerek modelin güçlü ve zayıf yönleri incelenmiştir.
 <img width="1093" height="562" alt="Ekran görüntüsü 2025-09-26 183931" src="https://github.com/user-attachments/assets/72cd0c90-1139-4d67-a39f-812b153fa6d7" />
