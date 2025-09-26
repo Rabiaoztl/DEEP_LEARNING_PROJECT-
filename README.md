@@ -6,6 +6,11 @@ Bu proje, COVID-19 Radyografi Veritabanı kullanılarak göğüs röntgeni (X-ra
 
 ## 📊 Veri Seti Hakkında Bilgi
 Veri seti linki:https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database
+<img width="1161" height="484" alt="Ekran görüntüsü 2025-09-26 183814" src="https://github.com/user-attachments/assets/36030624-4ed4-4b16-8bfb-d911ddd0ada1" />
+<img width="598" height="392" alt="Ekran görüntüsü 2025-09-26 183852" src="https://github.com/user-attachments/assets/254f30c2-d7b7-4fe4-a1b7-11aebd9f1ea2" />
+<img width="805" height="636" alt="Ekran görüntüsü 2025-09-26 183905" src="https://github.com/user-attachments/assets/77650a65-640f-453c-92ca-66375cbca4c8" />
+<img width="1093" height="562" alt="Ekran görüntüsü 2025-09-26 183931" src="https://github.com/user-attachments/assets/72cd0c90-1139-4d67-a39f-812b153fa6d7" />
+
 Veri seti, toplam 21.165 göğüs röntgeni görüntüsünden oluşmakta olup, farklı hastaneler ve kaynaklardan derlenmiş, çeşitli kalite ve görüntüleme koşullarını içermektedir. Bu çeşitlilik, modelin farklı hasta profilleri ve görüntüleme senaryolarına karşı daha genelleştirilebilir ve güvenilir tahminler yapabilmesini sağlamaktadır. Dolayısıyla veri seti, COVID-19 ve diğer akciğer hastalıklarının tespitine yönelik araştırmalar için uygun bir temel sunmaktadır.Dört ana kategoride etiketlenmiştir:
 
 🦠 COVID-19: COVID-19 vakalarına ait görüntüler.
