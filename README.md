@@ -79,6 +79,5 @@ Modelin sadece doğruluk oranı değil, aynı zamanda tahmin süreçleri de ince
 ## ✨LİNKLER
 https://www.kaggle.com/code/rabiaayse/deep-learning-proje
 
-https://www.kaggle.com/code/ceydarkolu/deep-learnining-project (TAKIM ARKADAŞIM)
 
 
