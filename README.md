@@ -29,10 +29,11 @@ Modelin genelleme yeteneğini artırmak ve küçük veri setinin etkilerini azal
 🔹 *Standartlaştırma (Normalization):* Görüntüler, ImageNet ortalama ve standart sapma değerleri kullanılarak normalize edilmiştir.  
 🔹 *Boyutlandırma:* Tüm görüntüler 224×224 piksel boyutuna getirilmiştir.  
 🔹 *Artırma Teknikleri:*
-  - Rastgele döndürme (±20°)  
-  - Yatay ve dikey çevirme (Flip)  
-  - Rastgele yeniden boyutlandırma ve kırpma (RandomResizedCrop)  
-  - Parlaklık, kontrast ve doygunlukta rastgele değişiklikler (ColorJitter)  
+   - Rastgele döndürme (±20°)  
+   - Yatay ve dikey çevirme (Flip)  
+   - Rastgele yeniden boyutlandırma ve kırpma (RandomResizedCrop)  
+   - Parlaklık, kontrast ve doygunlukta rastgele değişiklikler (ColorJitter)
+      
 🔹 *Veri Bölme:* Veri seti, Eğitim (%70), Doğrulama (%15) ve Test (%15) setlerine ayrılmıştır.
 
 ## 2. Basit CNN Mimarisi ve Düzenlileştirme
@@ -57,11 +58,12 @@ Modelin sadece doğruluk oranı değil, aynı zamanda tahmin süreçleri de ince
 🔹 *Görsel Hata Analizi:* Doğru ve yanlış tahmin edilen örnekler görselleştirilerek modelin hata tipleri detaylıca incelenmiştir.  
 
 
-🚀 Elde Edilen Sonuçlar
+## 🚀 Elde Edilen Sonuçlar
 • Modelin eğitim ve doğrulama süreçleri boyunca kayıp ve doğruluk (loss ve accuracy) grafikleri çizilerek performansı takip edilmiştir.
 <img width="1161" height="484" alt="Ekran görüntüsü 2025-09-26 183814" src="https://github.com/user-attachments/assets/36030624-4ed4-4b16-8bfb-d911ddd0ada1" />
 
 • En iyi hiperparametrelerle eğitilen modelin test seti üzerinde performansı karmaşıklık matrisi (confusion matrix) ve sınıflandırma raporu (classification report) ile detaylı olarak değerlendirilmiştir.
+
 <img width="598" height="392" alt="Ekran görüntüsü 2025-09-26 183852" src="https://github.com/user-attachments/assets/254f30c2-d7b7-4fe4-a1b7-11aebd9f1ea2" />
 <img width="805" height="636" alt="Ekran görüntüsü 2025-09-26 183905" src="https://github.com/user-attachments/assets/77650a65-640f-453c-92ca-66375cbca4c8" />
 
@@ -69,5 +71,5 @@ Modelin sadece doğruluk oranı değil, aynı zamanda tahmin süreçleri de ince
 • Ayrıca, modelin tahminlerinin arkasındaki görsel sebepleri anlamak için Grad-CAM (Gradient-weighted Class Activation Mapping) tekniği uygulanmıştır. Bu teknik, modelin görüntünün hangi bölgelerine odaklandığını bir ısı haritası (heatmap) şeklinde göstererek modelin karar verme sürecini daha şeffaf hale getirir.
 
 •Doğru ve yanlış sınıflandırılan örnekler görselleştirilerek modelin güçlü ve zayıf yönleri incelenmiştir.
-![Doğru Tahmin - Yanlış Tahmin Görsel]<img width="1093" height="562" alt="Ekran görüntüsü 2025-09-26 183931" src="https://github.com/user-attachments/assets/72cd0c90-1139-4d67-a39f-812b153fa6d7" />
+<img width="1093" height="562" alt="Ekran görüntüsü 2025-09-26 183931" src="https://github.com/user-attachments/assets/72cd0c90-1139-4d67-a39f-812b153fa6d7" />
 
