@@ -6,10 +6,6 @@ Bu proje, COVID-19 Radyografi Veritabanı kullanılarak göğüs röntgeni (X-ra
 
 ## 📊 Veri Seti Hakkında Bilgi
 Veri seti linki:https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database
-<img width="1161" height="484" alt="Ekran görüntüsü 2025-09-26 183814" src="https://github.com/user-attachments/assets/36030624-4ed4-4b16-8bfb-d911ddd0ada1" />
-<img width="598" height="392" alt="Ekran görüntüsü 2025-09-26 183852" src="https://github.com/user-attachments/assets/254f30c2-d7b7-4fe4-a1b7-11aebd9f1ea2" />
-<img width="805" height="636" alt="Ekran görüntüsü 2025-09-26 183905" src="https://github.com/user-attachments/assets/77650a65-640f-453c-92ca-66375cbca4c8" />
-<img width="1093" height="562" alt="Ekran görüntüsü 2025-09-26 183931" src="https://github.com/user-attachments/assets/72cd0c90-1139-4d67-a39f-812b153fa6d7" />
 
 Veri seti, toplam 21.165 göğüs röntgeni görüntüsünden oluşmakta olup, farklı hastaneler ve kaynaklardan derlenmiş, çeşitli kalite ve görüntüleme koşullarını içermektedir. Bu çeşitlilik, modelin farklı hasta profilleri ve görüntüleme senaryolarına karşı daha genelleştirilebilir ve güvenilir tahminler yapabilmesini sağlamaktadır. Dolayısıyla veri seti, COVID-19 ve diğer akciğer hastalıklarının tespitine yönelik araştırmalar için uygun bir temel sunmaktadır.Dört ana kategoride etiketlenmiştir:
 
@@ -63,14 +59,15 @@ Modelin sadece doğruluk oranı değil, aynı zamanda tahmin süreçleri de ince
 
 🚀 Elde Edilen Sonuçlar
 • Modelin eğitim ve doğrulama süreçleri boyunca kayıp ve doğruluk (loss ve accuracy) grafikleri çizilerek performansı takip edilmiştir.
-![Model Kayıp ve Doğruluk Grafiği]("C:\Users\rabia\OneDrive\Pictures\Screenshots\Ekran görüntüsü 2025-09-26 183814.png")
+<img width="1161" height="484" alt="Ekran görüntüsü 2025-09-26 183814" src="https://github.com/user-attachments/assets/36030624-4ed4-4b16-8bfb-d911ddd0ada1" />
 
 • En iyi hiperparametrelerle eğitilen modelin test seti üzerinde performansı karmaşıklık matrisi (confusion matrix) ve sınıflandırma raporu (classification report) ile detaylı olarak değerlendirilmiştir.
-![Karmaşıklık Matrisi]("C:\Users\rabia\OneDrive\Pictures\Screenshots\Ekran görüntüsü 2025-09-26 183905.png")
-![Sınıflandırma Raporu]("C:\Users\rabia\OneDrive\Pictures\Screenshots\Ekran görüntüsü 2025-09-26 183852.png")
+<img width="598" height="392" alt="Ekran görüntüsü 2025-09-26 183852" src="https://github.com/user-attachments/assets/254f30c2-d7b7-4fe4-a1b7-11aebd9f1ea2" />
+<img width="805" height="636" alt="Ekran görüntüsü 2025-09-26 183905" src="https://github.com/user-attachments/assets/77650a65-640f-453c-92ca-66375cbca4c8" />
+
 
 • Ayrıca, modelin tahminlerinin arkasındaki görsel sebepleri anlamak için Grad-CAM (Gradient-weighted Class Activation Mapping) tekniği uygulanmıştır. Bu teknik, modelin görüntünün hangi bölgelerine odaklandığını bir ısı haritası (heatmap) şeklinde göstererek modelin karar verme sürecini daha şeffaf hale getirir.
 
 •Doğru ve yanlış sınıflandırılan örnekler görselleştirilerek modelin güçlü ve zayıf yönleri incelenmiştir.
-![Doğru Tahmin - Yanlış Tahmin Görseli]("C:\Users\rabia\OneDrive\Pictures\Screenshots\Ekran görüntüsü 2025-09-26 183931.png")
+![Doğru Tahmin - Yanlış Tahmin Görsel]<img width="1093" height="562" alt="Ekran görüntüsü 2025-09-26 183931" src="https://github.com/user-attachments/assets/72cd0c90-1139-4d67-a39f-812b153fa6d7" />
 
